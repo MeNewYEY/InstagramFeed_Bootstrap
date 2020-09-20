@@ -1,0 +1,30 @@
+#instagram{
+font-family: 'Lobster', cursive;
+font-size: 20px;
+}
+
+a:link{
+color: gray;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 95%;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+input{
+    border: 0;
+    width: 90%;
+}
+
+.cards > img{
+    width:885;
+    height:553;
+}

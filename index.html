@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<!-- instagram tag -->
+
+<nav class="navbar navbar-expand navbar-light bg-light ">
+    <div class="container col-md-9">
+                <i class="fab fa-instagram"></i>
+                <a class="navbar-brand" href="#">Instragram</a>
+                
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Create a new post</button>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-cog"></i></a>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>                           
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Separated link</a>
+                            </div>                
+                        </li>
+                    </ul>
+                </div>
+    </div>    
+</nav>
+
+
+<!-- pills -->
+<div class="container-fluid">        
+
+        <ul class="nav nav-pills justify-content-center mt-sm-3" id="myTab" role="tablist">
+        
+            <li class="nav-item" role="presentation">
+                 <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-th"></i></a>
+             </li>
+
+            <li class="nav-item" role="presentation">
+                 <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-square"></i></a>
+             </li>
+
+         </ul>
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active text-center" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                    <!-- GRID -->
+
+                  <div class="container bg-light col-md-12 mt-sm-3">
+                    <div class="row align-items-center">
+                        <figure class="col-md-4">
+                        <img src="https://i.pinimg.com/originals/c5/a5/84/c5a5842436b9d7797321b928fb4cf6e3.jpg" class="img-fluid" alt="Responsive image">
+                        </figure>
+                        <figure class="col-md-4">
+                        <img src="https://images.pexels.com/photos/207891/pexels-photo-207891.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img-fluid" alt="Responsive image">
+                        </figure>
+                       <figure class="col-md-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTqrbIx919v9NMK6_hMhHYYYI1cIK8ySVpVwA&usqp=CAU" class="img-fluid" alt="Responsive image">
+                       </figure>
+                    </div>
+                    
+                    <div class="row align-items-center">
+                    
+                        <figure class="col-md-4">                       
+                        <img src="https://i.pinimg.com/originals/b1/94/0e/b1940eb27d12eadbcdaa86dca0f1037d.jpg" class="img-fluid" alt="Responsive image">
+                        </figure>
+                        <figure class="col-md-4">
+                        <img src="https://i1.wp.com/sociallover.net/wp-content/uploads/2017/10/lotus-flower-images-free-download-for-whatsapp.png" class="img-fluid" alt="Responsive image">
+                        </figure>
+                        <figure class="col-md-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ2UtUKLEH7phQTGrfE7e8OOrO6aYhlCD2Dxg&usqp=CAU" class="img-fluid" alt="Responsive image">
+                        </figure>
+                    </div>
+
+
+                     <div class="row align-items-center">
+                        <figure class="col-md-4">
+                        <img src=" https://wallpaperheart.com/wp-content/uploads/2018/04/kitty-cute-wallpaper-hd.jpg" class="img-fluid" alt="Responsive image">
+                        </figure>
+                        <figure class="col-md-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT4AxiEYOau5SS0p4LG19Y0WmUwb0mqSVT4UA&usqp=CAU" class="img-fluid" alt="Responsive image">
+                        </figure>
+                        <figure class="col-md-4">
+                        <img src="https://images.unsplash.com/photo-1534278931827-8a259344abe7?ixlib=rb-1.2.1&w=1000&q=80" class="img-fluid" alt="Responsive image">
+                        </figure>
+                    </div>                   
+                    </div>
+                </div>
+
+
+                <div class="tab-pane fade text-center " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <!--CARDS-->
+                    <div class="container bg-light col-md-12 cards">
+                        <div class="row justify-content-center mt-sm-3">
+
+                        <div class="row justify-content-center mt-sm-3">
+                        <div class="col-md-6">
+                        <div class="card text-left">                       
+
+                            <img src="https://i.pinimg.com/originals/c5/a5/84/c5a5842436b9d7797321b928fb4cf6e3.jpg"  class="card-img" alt="puppy">
+                              <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            <div class="icon">
+                            <div class="left">
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Coment..." />
+                            </div>
+                            <div class="right">
+                            <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            </div>
+
+
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="row justify-content-center mt-sm-3">
+                        <div class="col-md-6">
+                        <div class="card text-left">
+                            <img src="https://images.pexels.com/photos/207891/pexels-photo-207891.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="bear">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="icon">
+                            <div class="left">
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Coment..." />
+                            </div>
+                            <div class="right">
+                            <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            </div>
+
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+
+
+                        <div class="row justify-content-center mt-sm-3">
+                        <div class="col-md-6">
+                        <div class="card text-left">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTqrbIx919v9NMK6_hMhHYYYI1cIK8ySVpVwA&usqp=CAU" class="card-img-top" alt="cats">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="icon">
+                            <div class="left">
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Coment..." />
+                            </div>
+                            <div class="right">
+                            <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            </div>
+
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+
+
+                        <div class="row justify-content-center mt-sm-3">
+                        <div class="col-md-6">
+                        <div class="card text-left">
+                            <img src="https://i.pinimg.com/originals/b1/94/0e/b1940eb27d12eadbcdaa86dca0f1037d.jpg" class="card-img-top" alt="view">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="icon">
+                            <div class="left">
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Coment..." />
+                            </div>
+                            <div class="right">
+                            <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            </div>
+
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="row justify-content-center mt-sm-3">
+                        <div class="col-md-6">
+                        <div class="card text-left">
+                            <img src="https://i1.wp.com/sociallover.net/wp-content/uploads/2017/10/lotus-flower-images-free-download-for-whatsapp.png" class="card-img-top" alt="flower">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="icon">
+                            <div class="left">
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Coment..." />
+                            </div>
+                            <div class="right">
+                            <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            </div>
+
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="row justify-content-center mt-sm-3">
+                        <div class="col-md-6">
+                        <div class="card text-left">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ2UtUKLEH7phQTGrfE7e8OOrO6aYhlCD2Dxg&usqp=CAU" class="card-img-top" alt="mountain">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="icon">
+                            <div class="left">
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Coment..." />
+                            </div>
+                            <div class="right">
+                            <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            </div>
+
+                            </div>
+                        </div>
+                        </div>
+                        </div>                    
+                    
+
+                        <div class="row justify-content-center mt-sm-3">
+                        <div class="col-md-6">
+                        <div class="card text-left">
+                            <img src="https://wallpaperheart.com/wp-content/uploads/2018/04/kitty-cute-wallpaper-hd.jpg" class="card-img-top" alt="cat2">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="icon">
+                            <div class="left">
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Coment..." />
+                            </div>
+                            <div class="right">
+                            <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            </div>
+
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="row justify-content-center mt-sm-3">
+                        <div class="col-md-6">
+                        <div class="card text-left">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT4AxiEYOau5SS0p4LG19Y0WmUwb0mqSVT4UA&usqp=CAU" class="card-img-top" alt="dog">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="icon">
+                            <div class="left">
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Coment..." />
+                            </div>
+                            <div class="right">
+                            <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            </div>
+
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="row justify-content-center mt-sm-3">
+                        <div class="col-md-6">
+                        <div class="card text-left">
+                            <img src=" https://images.unsplash.com/photo-1534278931827-8a259344abe7?ixlib=rb-1.2.1&w=1000&q=80" class="card-img-top" alt="animal">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="icon">
+                            <div class="left">
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Coment..." />
+                            </div>
+                            <div class="right">
+                            <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            </div>
+
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        <form>         
+          <div class="form-group">
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+          
+          <div>
+          <button type="button" class="btn btn-light"><i class="fas fa-camera"></i></button>
+          <button type="button" class="btn btn-light"> <i class="fas fa-map-marker-alt"></i></button>         
+          </div>
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-success">Publish</button>
+      </div>
+    </div>
+  </div>
+</div>
+            
+</div>
+                
+           
+
+
+
+
+<script> src="index.js"</script>    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
